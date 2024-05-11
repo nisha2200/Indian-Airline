@@ -1,0 +1,224 @@
+@font-face {
+    font-family: fonti;
+    src: url(./FoundersGroteskWeb-Regular\ 365\ font\ ttf.ttf);
+}
+
+@font-face {
+    font-family: nisha;
+    src: url(./6035twklausanne\ sadda.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#page1 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4vw 2vw;
+    color: white;
+    color: rgba(5, 68, 146, 0.87);
+    font-family: fonti;
+}
+
+#nav #nav1 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.3vw;
+    font-family: nisha;
+}
+
+#nav h3 a {
+    color: white;
+    color: rgba(5, 68, 146, 0.87);
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-weight: 900;
+    /* overflow: hidden; */
+}
+
+#nav2 {
+    /* background:linear-gradient(50deg,rgba(145, 198, 201, 0.363),rgba(150, 190, 188, 0.436),rgba(112, 202, 227, 0.468)); */
+    height: 100%;
+    background-color: #1a65a693;
+    width: 37vw;
+    border: 1px solid #9c9c9c;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 9999;
+    filter: drop-shadow(10px);
+    right: 0%;
+    top: 0%;
+    overflow: hidden;
+    transition: all ease 1s;
+    transform: translateX(106%);
+    padding: 2vw 4vw;
+}
+
+#nav2 h3 a {
+    color: rgba(2, 27, 59, 0.9);
+    text-decoration: none;
+    font-family: fonti;
+    font-size: 7.8vw;
+    font-weight: 100;
+    /* margin-top: 9vw; */
+    line-height: 17vw;
+}
+
+#nav2 i {
+    font-size: 8vw;
+    font-weight: 100;
+    color: rgba(2, 27, 59, 0.9);
+}
+
+#nav i {
+    display: none;
+}
+
+
+
+#nav h3:hover a {
+    transform: scale(0.95);
+    color: #fff;
+    font-size: 1.3vw;
+    border-radius: 50px;
+    background-color: rgba(6, 76, 162, 0.881);
+    border: 1.6px solid rgb(238, 236, 236);
+}
+
+#page1 .heading {
+    font-family: fonti;
+    font-size: 8vw;
+    line-height: 7.6vw;
+    position: absolute;
+    z-index: 9999;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(212, 204, 204), rgb(127, 198, 241), rgb(57, 188, 228), rgb(158, 217, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all ease 0.8s;
+    text-align: center;
+    top: 20vw;
+}
+
+#page1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1 #date{
+    position: absolute;
+    z-index: 999;
+}
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: saddlebrown;
+}
+
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    padding: 1vw 1.5vw;
+}
+
+#page3 #freq {
+    font-size: 2.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    text-transform: capitalize;
+}
+
+#page3 #elemcontainer {
+    width: 100%;
+    margin-top: 2vw;
+}
+
+#elemcontainer .elem {
+    display: flex;
+    height: 10vh;
+    background-color: #fff;
+    border-bottom: 0.6px solid #dadada;
+    align-items: center;
+}
+
+.elem {
+    padding: 1vw 2vw;
+    position: relative;
+}
+
+.elem i {
+    position: absolute;
+    right: 2%;
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: nisha;
+    cursor: pointer;
+}
+
+.elem span {
+    font-family: fonti;
+    font-size: 1.5vw;
+    font-family: 100;
+    letter-spacing: 0.4px;
+}
+
+/* .elem .overlay {
+    height: 10vh;
+    width: 80%;
+    /* background-color: rgba(46, 139, 86, 0.363); 
+    position: absolute;
+  overflow: hidden; 
+    border-bottom: 1px solid black;
+} */
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    #nav i {
+        display: block;
+        font-size: 4vw;
+    }
+
+    #nav h3 a {
+        display: none;
+    }
+
+    .elem span {
+        font-family: fonti;
+        font-size: 2.5vw;
+        font-family: 100;
+        letter-spacing: 0.4px;
+    }
+
+    .elem i {
+        position: absolute;
+        right: 2%;
+        font-size: 3vw;
+        cursor: pointer;
+    }
+}
