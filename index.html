@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Airline</title>
+  <link rel="icon" href="img/fav.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+
+<body>
+  <video muted autoplay loop src="./bg.mp4"></video>
+  <div id="main">
+    <div id="page1">
+
+      <div id="upperpart">
+
+        <div id="nav1">
+          <span>
+            <h2>Indian</h2>Airline
+          </span>
+        </div>
+
+        <div id="nav2">
+          <h5>Home</h5>
+          <a href="book.html">Book</a>
+          <a href="about.html">About</a>
+        </div>
+
+        <div id="nav3">
+          <i class="ri-plane-line"></i>
+          <h3>Flights.</h3>
+        </div>
+      </div>
+      <!-- <div id="imgpart">
+        <img src="./istockphoto- with tree.webp" alt="">
+        
+      </div> -->
+    </div>
+    <div id="page2">
+      <div class="user2">
+
+        <div class="input">
+          <label for="usrname">Username:</label><br>
+          <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="input">
+          <label for="usrname">Phone Number:</label><br>
+          <input type="number" id="phoneNumber	" name="phoneNumber" required>
+          <br><br>
+        </div>
+
+        <div class="input">
+          <label>Email:</label><br>
+          <input type="email" name="email" class="textInput" required>
+          <div id="email_error"></div>
+        </div>
+        <br>
+        <div class="input">
+          <label for="usrname">Date Of Birth:</label><br>
+          <input type="date" id="DateOfBirth" name="DateOfBirth" required>
+          <br><br>
+        </div>
+
+
+        <div class="input">
+          <label for="usrname">Address:</label><br>
+          <input type="text" id="Address" name="Address" required>
+          <br><br>
+        </div>
+
+        <div class="input">
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" onkeyup='check();'
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+            required>
+          <br><br>
+        </div>
+
+        <div class="input">
+          <label>Password confirm</label> <br> <br><br>
+          <input type="password" n name="confirmpsw" id="confirmpsw" onkeyup='check();' required><br>
+          <span id='message'></span>
+          <br><br>
+          <div id="password_error"></div>
+        </div>
+
+        <div class="sub">
+          <input type="submit" value="Submit" name="submit">
+        </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div id="page3">
+    <h1 id="freq">Frequently Asked <span>question</span></h1>
+    <div id="elemcontainer">
+      <div class="elem">
+        <span>What do I need to know before booking a flight?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+      </div>
+      <div class="elem">
+        <span>Which month of the year are flight prices lowest?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+      <div class="elem">
+        <span>Can flying international flights with a layover save money on airfare?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+      <div class="elem">
+        <span>How do I find the best flight deals on Indian?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+      <div class="elem">
+        <span>Does Indian query more flight providers than competitors?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+      <div class="elem">
+        <span>What is Indian "flexible dates" feature and why should I care?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+
+      <div class="elem">
+        <span>When is the best time to buy plane tickets - Last minute or in advance?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+      <div class="elem">
+        <span>How does Indian find such low flight prices?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+      <div class="elem">
+        <span>How can Hacker Fares save me money?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+      <div class="elem">
+        <span>How does Indian flight Price Forecast tool help me choose the right time to buy?</span>
+        <i class="ri-arrow-down-s-line"></i>
+        <div class="overlay"></div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
