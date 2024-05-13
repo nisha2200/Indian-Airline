@@ -1,0 +1,267 @@
+@font-face {
+    font-family: nisha;
+    src: url(./6035twklausanne\ sadda.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+video {
+    min-height: 120vh;
+    position: fixed;
+    z-index: -9;
+    width: 100%;
+}
+
+#page1 {
+    min-height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#upperpart {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(40deg, rgba(32, 32, 32, 0.667), rgba(104, 104, 104, 0.671), #a3a3a3a4);
+    display: flex;
+    mix-blend-mode: exclusion;
+    align-items: center;
+    padding: 1vw 2vw;
+    color: #5e5e5e;
+    justify-content: space-between;
+}
+
+#nav1 span {
+    font-size: 2vw;
+    color: #fff;
+    font-family: fonti;
+    line-height: 2.4vw;
+}
+
+#nav2 span h2 {
+    font-weight: 100;
+    font-size: 1.8vw;
+}
+
+#nav2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 7vh;
+    padding: 1vw 3vw;
+    cursor: pointer;
+    position: relative;
+    background-color: #b3b3b476;
+    border-radius: 5px;
+}
+
+#nav2 h5 {
+    font-size: 1.9vw;
+    color: #fff;
+}
+
+#nav2 a {
+    font-size: 1.4vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav3 {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    align-items: center;
+}
+
+#nav3 i {
+    font-size: 3vw;
+}
+
+#nav3 h3 {
+    font-size: 2vw;
+}
+
+#page1 #imgpart {
+    object-fit: cover;
+    height: 60vh;
+    width: 40vw;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    margin-left: 55%;
+    margin-top: 15vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#imgpart img {
+    height: 60vh;
+    width: 40vw;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    padding-top: 10vh;
+}
+
+.user2 {
+    padding: 50px;
+    background-color: #ffffffa4;
+    text-align: center;
+    font-weight: bold;
+    color: #6a6a6a;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.input{
+    display: inline-flex;
+    align-items: center;
+    margin: 2vw 1vw;
+    row-gap: 10px;
+}
+.user2 input {
+    padding: 10px;
+    flex: 1;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    display: inline-table;
+    box-shadow: 5px 8px 6px #7a79793e;
+    background-color: #dddddd;
+    margin-left: 1.5vw;
+    
+}
+
+.pass {
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pass input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    padding: 1vw 1.5vw;
+}
+
+#page3 #freq {
+    font-size: 2.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    text-transform: capitalize;
+}
+
+#page3 #elemcontainer {
+    width: 100%;
+    margin-top: 2vw;
+}
+
+#elemcontainer .elem {
+    display: flex;
+    height: 10vh;
+    /* background-color:  #ffffff3e;; */
+    border-bottom: 0.6px solid #dadada;
+    align-items: center;
+}
+
+.elem {
+    padding: 1vw 2vw;
+    position: relative;
+}
+
+.elem i {
+    position: absolute;
+    right: 2%;
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: nisha;
+    cursor: pointer;
+}
+
+.elem span {
+    font-size: 1.5vw;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    background-color: transparent;
+    padding: 1vw 2vw;
+    mix-blend-mode: luminosity;
+}
+
+/* .elem .overlay {
+    height: 10vh;
+    width: 80%;
+    /* background-color: rgba(46, 139, 86, 0.363); 
+    position: absolute;
+  overflow: hidden; 
+    border-bottom: 1px solid black;
+} */
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    #nav i {
+        display: block;
+        font-size: 4vw;
+    }
+
+    #nav h3 a {
+        display: none;
+    }
+
+    .elem span {
+        font-family: fonti;
+        font-size: 2.5vw;
+        font-family: 100;
+        letter-spacing: 0.4px;
+    }
+
+    .elem i {
+        position: absolute;
+        right: 2%;
+        font-size: 3vw;
+        cursor: pointer;
+    }
+}
