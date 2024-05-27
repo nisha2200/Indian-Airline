@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="container">
+        <form id="booking-form">
+            <h2>Flight Booking Form</h2>
+
+            <!-- Passenger Details Section -->
+            <fieldset>
+                <legend>Passenger Details</legend>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="passportNumber">Passport Number:</label>
+                <input type="text" id="passportNumber" name="passportNumber" required>
+
+                <label for="gender">Gender:</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                </div>
+            </fieldset>
+
+            <!-- Flight Details Section -->
+            <fieldset>
+                <legend>Flight Details</legend>
+                <label for="departureCity">Departure City:</label>
+                <input type="text" id="departureCity" name="departureCity" required>
+
+                <label for="destinationCity">Destination City:</label>
+                <input type="text" id="destinationCity" name="destinationCity" required>
+
+                <label for="departureDate">Departure Date:</label>
+                <input type="date" id="departureDate" name="departureDate" required>
+
+                <label for="returnDate">Return Date:</label>
+                <input type="date" id="returnDate" name="returnDate">
+
+                <label for="class">Class:</label>
+                <select id="class" name="class" required>
+                    <option value="economy">Economy</option>
+                    <option value="business">Business</option>
+                    <option value="first">First Class</option>
+                </select>
+            </fieldset>
+
+            <button type="submit">Book Flight</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
+    </div>
+</body>
+</html>

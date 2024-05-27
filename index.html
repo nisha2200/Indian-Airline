@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Indian Airline</title>
+  <title>Singapore Airline</title>
   <link rel="icon" href="img/fav.png">
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
@@ -12,15 +12,14 @@
 </head>
 
 <body>
-  <video muted autoplay loop src="./bg.mp4"></video>
   <div id="main">
     <div id="page1">
 
       <div id="upperpart">
-
+        
         <div id="nav1">
           <span>
-            <h2>Indian</h2>Airline
+            <h2>SINGAPORE</h2>Airline
           </span>
         </div>
 
@@ -34,138 +33,189 @@
           <i class="ri-plane-line"></i>
           <h3>Flights.</h3>
         </div>
+        <i id="menu" class="ri-menu-3-fill"></i>
       </div>
-      <!-- <div id="imgpart">
-        <img src="./istockphoto- with tree.webp" alt="">
-        
-      </div> -->
+      <div id="textcont">
+        <img src="./3.png" alt="">
+        <h4>The best Indigo deals on our website <br>
+          Search & Book Now.</h4>
+        <h2><a href="sign.html">Sign up</a></h2>
+      </div>
+      <div id="images">
+
+        <div id="box">
+          <input type="radio" id="roundTrip" name="tripType" readonly="" class="" value="ROUNDTRIP" checked="">
+          <label class="custom-control-label" for="roundTrip">Round Trip</label>
+
+
+          <input type="radio" id="onewayTrip" name="tripType" readonly="" class="custom-control-input"
+            value="ONEWAYTRIP">
+          <label class="custom-control-label" for="onewayTrip">One Way</label>
+
+          <br>
+          <div id="datecont">
+            <label id="date" for="usrname">Depart Date</label>
+            <input type="date" id="DateOfBirth" name="DateOfBirth" required>
+          </div>
+
+          <input type="text" name="" id="from" placeholder="From Where">
+          <input type="text" name="" id="to" placeholder="To Where">
+
+          <!-- <h3><a href="sign.html">Sign up</a></h3> -->
+        </div>
+        <div id="img">
+          <img id="coupon" src="./london.jpeg" alt="">
+        </div>
+      </div>
+
+
+
+      <!-- <img id="one" src="./istockphoto- with tree.webp" alt=""> -->
     </div>
     <div id="page2">
-      <div class="user2">
-
-        <div class="input">
-          <label for="usrname">Username:</label><br>
-          <input type="text" id="username" name="username" required>
-        </div>
-
-        <div class="input">
-          <label for="usrname">Phone Number:</label><br>
-          <input type="number" id="phoneNumber	" name="phoneNumber" required>
-          <br><br>
-        </div>
-
-        <div class="input">
-          <label>Email:</label><br>
-          <input type="email" name="email" class="textInput" required>
-          <div id="email_error"></div>
-        </div>
-        <br>
-        <div class="input">
-          <label for="usrname">Date Of Birth:</label><br>
-          <input type="date" id="DateOfBirth" name="DateOfBirth" required>
-          <br><br>
-        </div>
-
-
-        <div class="input">
-          <label for="usrname">Address:</label><br>
-          <input type="text" id="Address" name="Address" required>
-          <br><br>
-        </div>
-
-        <div class="input">
-          <label for="password">Password:</label><br>
-          <input type="password" id="password" name="password" onkeyup='check();'
-            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
-            required>
-          <br><br>
-        </div>
-
-        <div class="input">
-          <label>Password confirm</label> <br> <br><br>
-          <input type="password" n name="confirmpsw" id="confirmpsw" onkeyup='check();' required><br>
-          <span id='message'></span>
-          <br><br>
-          <div id="password_error"></div>
-        </div>
-
-        <div class="sub">
-          <input type="submit" value="Submit" name="submit">
-        </div>
-        </form>
+      <div id="cntrycont">
+        <img src="./london.jpeg" alt="">
+        <h2 id="city1">London</h2>
+        <h4>to</h4>
+        <h2 id="city2">Paris</h2>
+        <span>₹7550</span>
+        <h3>1 July 2024</h3>
       </div>
     </div>
 
-  </div>
-
-
-
-  <div id="page3">
-    <h1 id="freq">Frequently Asked <span>question</span></h1>
-    <div id="elemcontainer">
-      <div class="elem">
-        <span>What do I need to know before booking a flight?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
+    <div id="page4">
+      <h1>Terms and Conditions</h1>
+      <p>When searching for airfares, discount and savings claims are based on multiple factors, including searching over 500 airlines to find our available fare. Coupon codes are valid for savings for qualified bookings off our service fees.</p>
+     
+      <div id="lasttext">
+        <div id="quick">
+          <h2>Quick Links</h2>
+          <h4>Popular Airlines</h4>
+          <h4>Popular Flight Routes</h4>
+          <h4>Top U.S. Destinations</h4>
+          <h4>Top International Destinations</h4>
+          <h4>Site Directories</h4>
+          <h4>Stay Connected</h4>
+          <h4>International Sites</h4>
+        </div>
+        <div id="traveler">
+          <h2>Travaler Tools</h2>
+          <h4>Gift Cards</h4>
+          <h4>Check My Booking </h4>
+          <h4>Customer Support</h4>
+          <h4>Online Check-in</h4>
+          <h4>Airline Baggage Fees</h4>
+          <h4>Check Flight Status</h4>
+          <h4>Travel Blog</h4>
+          <h4>Local Guides</h4>
+        </div>
+        <div id="legal">
+          <h2>Legal</h2>
+          <h4>Privacy Policy</h4>
+          <h4>Cookie Policy</h4>
+          <h4>Terms & Conditions</h4>
+          <h4>Our Service Fees</h4>
+          <h4>Taxes & Fees</h4>
+        </div>
       </div>
-      <div class="elem">
-        <span>Which month of the year are flight prices lowest?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-      <div class="elem">
-        <span>Can flying international flights with a layover save money on airfare?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-      <div class="elem">
-        <span>How do I find the best flight deals on Indian?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-      <div class="elem">
-        <span>Does Indian query more flight providers than competitors?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-      <div class="elem">
-        <span>What is Indian "flexible dates" feature and why should I care?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-
-      <div class="elem">
-        <span>When is the best time to buy plane tickets - Last minute or in advance?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-      <div class="elem">
-        <span>How does Indian find such low flight prices?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-      <div class="elem">
-        <span>How can Hacker Fares save me money?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
-      </div>
-      <div class="elem">
-        <span>How does Indian flight Price Forecast tool help me choose the right time to buy?</span>
-        <i class="ri-arrow-down-s-line"></i>
-        <div class="overlay"></div>
-
+      <div id="icon">
+        <span>Follow us.</span>
+        <i class="ri-instagram-line"></i><i class="ri-facebook-box-fill"></i><i class="ri-twitter-fill"></i>
+        ........................
       </div>
     </div>
-  </div>
+    <div id="page3">
+      <h1 id="freq">Frequently Asked <span>question</span></h1>
+      <div id="elemcontainer">
+
+        <div class="elem">
+          <span>What do I need to know before booking a flight?</span>
+          <i class="ri-arrow-down-s-line"></i>
+          <div class="overlay"></div>
+          <div class="answer">
+            <p>Before booking a flight, compare prices across websites, check baggage policies, and ensure you meet visa
+              and health requirements for your destination. Consider travel insurance and be aware of any COVID-19
+              restrictions.</p>
+          </div>
+        </div>
+
+        <div class="elem">
+          <span>Which month of the year are flight prices lowest?</span>
+          <i class="ri-arrow-down-s-line"></i>
+          <div class="overlay"></div>
+          <div class="answer">
+            <p>Soy prices are typically lowest around October, coinciding with the U.S. harvest season. This period sees
+              increased supply, leading to lower prices.</p>
+          </div>
+        </div>
+
+        <div class="elem">
+          <span>How do I find the best flight deals on Singapore </span>
+          <i class="ri-arrow-down-s-line"></i>
+          <div class="overlay"></div>
+          <div class="answer">
+            <p>Use flight comparison websites like Cleartrip, MakeMyTrip, or Skyscanner, and book tickets during sales
+              or
+              promotions, often announced during festivals or special events. Being flexible with travel dates and
+              booking
+              in advance also helps secure better deals.</p>
+          </div>
+        </div>
+
+        <div class="elem">
+          <span>What is Singapore "flexible dates" feature and why should I care?</span>
+          <i class="ri-arrow-down-s-line"></i>
+          <div class="overlay"></div>
+          <div class="answer">
+            <p>Singapore flexible dates refer to the willingness to travel on different days to find cheaper flights,
+              avoiding
+              peak travel times like festivals and holidays. The season matters because off-peak times, such as the
+              monsoon
+              season (June to September), generally offer lower fares. Flexibility and season awareness can
+              significantly
+              reduce travel costs.</p>
+          </div>
+        </div>
+
+        <div class="elem">
+          <span>When is the best time to buy plane tickets - Last minute or in advance?</span>
+          <i class="ri-arrow-down-s-line"></i>
+          <div class="overlay"></div>
+          <div class="answer">
+            <p>The best time to buy plane tickets is typically in advance, ideally 1-3 months before domestic flights
+              and 2-8
+              months before international flights. Last-minute deals can sometimes be cheaper, but they're less reliable
+              and
+              often more expensive.</p>
+          </div>
+        </div>
+
+        <div class="elem">
+          <span>How does Singapore find such low flight prices?</span>
+          <i class="ri-arrow-down-s-line"></i>
+          <div class="overlay"></div>
+          <div class="answer">
+            <p>Singapore  find low flight prices by using flight comparison websites like Cleartrip, MakeMyTrip, and
+              Skyscanner,
+              taking advantage of airline sales and promotions, booking during off-peak seasons, and being flexible with
+              travel dates.</p>
+          </div>
+        </div>
+
+        <div class="elem">
+          <span>How does Singapore flight Price Forecast tool help me choose the right time to buy?</span>
+          <i class="ri-arrow-down-s-line"></i>
+          <div class="overlay"></div>
+          <div class="answer">
+            <p>The TASC 2 (Ticket-Age Search Chart) tool helps you choose the right time to buy flights by analyzing
+              historical data to predict the best times for booking. It shows price trends over time, helping you
+              identify
+              when fares are likely to be at their lowest, ensuring you make cost-effective purchasing decisions.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
